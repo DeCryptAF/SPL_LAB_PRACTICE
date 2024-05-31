@@ -1,5 +1,5 @@
 /*
-Problem : Write a C program to write a student's name along with the mark in a file 
+Problem : Write a C program to read name and marks of n number of students and store them in a file.
 
 Usage : 
 fprintf( FILE * stream, const char * format, ... ); for writing in the file in a specific format.
