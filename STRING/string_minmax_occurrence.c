@@ -10,6 +10,8 @@ This will represent the number of times a character appeared in our string.
 
 Then we take a max and min value and operate on it to find the max values's index and min value's index. This will be later
 used to print the result.
+
+fgets (char *str, int n, FILE *stream); // to get input, we use stdin here as it will be manual input.
 */
 
 #include <stdio.h>
