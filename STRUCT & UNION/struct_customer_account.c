@@ -2,7 +2,6 @@
 Problem: Write a C program that takes customer data from the user and prints it.
 It will have a First Name, Last Name, Account Number, Balance.
 */
-
 #include <stdio.h>
 
 struct account
