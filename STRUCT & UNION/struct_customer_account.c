@@ -12,22 +12,21 @@ struct account {
     } names;
     int accountNum;
     double balance;
-};
+} account[10];
 
 // Function prototypes
 void customer_info(struct account *acct);
 void print_customer(struct account acct);
 
 int main() {
-    struct account record;
     int n;
     printf("Enter the number of accounts: ");
     scanf("%d", &n);
-
+    struct account record[n];
     for (int i = 0; i < n; i++) {
         printf("\nACCOUNT %d:\n", i + 1);
-        customer_info(&record);
-        print_customer(record);
+        customer_info(&record[i]);
+        print_customer(record[i]);
     }
 
     return 0;
