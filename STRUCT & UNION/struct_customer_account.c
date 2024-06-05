@@ -12,7 +12,7 @@ struct account {
     } names;
     int accountNum;
     double balance;
-} account[10];
+};
 
 // Function prototypes
 void customer_info(struct account *acct);
